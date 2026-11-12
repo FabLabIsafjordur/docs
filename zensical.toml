@@ -1,7 +1,8 @@
 [project]
-site_url = "https://www.example.com/"
-site_name = "Documentation"
-# site_description = "Your project description"
+site_name = "Fab Lab Ísafjörður Docs"
+site_description = "Documentation, projects and technical knowledge from Fab Lab Ísafjörður"
+site_url = "https://fablabisafjordur.github.io/docs/"
+repo_url = "https://github.com/FabLabIsafjordur/docs"
 # site_author = "Your name"
 
 # copyright = "Copyright &copy; 2026 Your name"
