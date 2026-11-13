@@ -43,7 +43,7 @@ features = [
   # "navigation.instant.progress",
   "navigation.path",
   # "navigation.prune",
-  "navigation.sections",
+  # "navigation.sections",
   # "navigation.tabs",
   # "navigation.tabs.sticky",
   "navigation.top",

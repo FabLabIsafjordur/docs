@@ -12,8 +12,6 @@ These features can be used to create clear
 instructions, technical notes, diagrams,
 and interactive documentation.
 
-## Get started
-
 For full documentation visit [zensical.org](https://zensical.org/docs/).
 
 ## Examples
@@ -160,10 +158,10 @@ $$
 
 > Go to [documentation](https://zensical.org/docs/authoring/lists/#using-task-lists)
 
-* [x] Install Zensical
-* [x] Configure `zensical.toml`
-* [x] Write amazing documentation
-* [ ] Deploy anywhere
+* [x] Make a task list
+* [x] Check off the task above
+* [x] Check this task off and also above
+* [ ] Do this task tomorrow
 
 ## Tooltips
 
