@@ -1,3 +1,8 @@
+---
+title: Projects
+icon: lucide/folder-kanban
+---
+
 # Projects
 
 Projects designed, built, or developed at Fab Lab Ísafjörður.

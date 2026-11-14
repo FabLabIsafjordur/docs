@@ -1,3 +1,8 @@
+---
+title: Experiments
+icon: lucide/flask-conical
+---
+
 # Experiments
 
 Experiments, tests, and discoveries made at Fab Lab Ísafjörður.

@@ -1,3 +1,8 @@
+---
+title: Machines
+icon: lucide/wrench
+---
+
 # Machines
 
 Documentation for the machines and equipment at Fab Lab Ísafjörður.
