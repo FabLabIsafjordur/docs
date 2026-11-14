@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>CNC Router Speeds &amp; Feeds Calculator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <h1>CNC Router Speeds &amp; Feeds Calculator</h1>
+    <div class="subtitle">Tuned for ShopBot style routers cutting wood, sheet goods and plastics. Starting points only, always test on scrap.</div>
+
+    <div class="layout">
+
+      <!-- Left column: inputs -->
+      <div>
+        <div class="panel">
+          <h2>Machine and material</h2>
+          <div class="segmented" id="unitToggle">
+            <button data-units="mm" class="on">Metric</button>
+            <button data-units="in">Imperial</button>
+          </div>
+          <label for="machine">Machine profile</label>
+          <select id="machine"></select>
+          <label for="material">Material</label>
+          <select id="material"></select>
+        </div>
+
+        <div class="panel">
+          <h2>Tool</h2>
+          <div class="row">
+            <div>
+              <label for="diameter">Diameter (<span class="unit-name">mm</span>)</label>
+              <input type="number" id="diameter" step="any" min="0.5">
+            </div>
+            <div>
+              <label for="flutes">Flutes</label>
+              <select id="flutes">
+                <option>1</option>
+                <option selected>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+            </div>
+          </div>
+          <label for="toolMaterial">Tool material</label>
+          <select id="toolMaterial">
+            <option value="carbide">Solid Carbide</option>
+            <option value="hss">HSS</option>
+          </select>
+          <label for="bitType">Bit type</label>
+          <select id="bitType">
+            <option value="up">Upcut</option>
+            <option value="down">Downcut</option>
+            <option value="comp">Compression</option>
+          </select>
+          <div class="slider-label"><span>Stickout below collet</span><b id="stickoutValue"></b></div>
+          <input type="range" id="stickout">
+        </div>
+
+        <div class="panel">
+          <h2>Cut</h2>
+          <div class="slider-label"><span>Depth of cut (DOC)</span><b id="depthValue"></b></div>
+          <input type="range" id="depthOfCut">
+
+          <div class="slider-label"><span>Stepover (WOC)</span><b id="stepoverValue"></b></div>
+          <input type="range" id="stepover">
+          <div class="segmented spaced" id="stepoverToggle">
+            <button data-mode="distance" class="on">Distance</button>
+            <button data-mode="percent">% of diameter</button>
+          </div>
+
+          <div class="slider-label"><span>Spindle RPM</span><b id="rpmValue"></b></div>
+          <input type="range" id="rpm" min="6000" max="24000" step="500">
+
+          <div class="slider-label"><span>Tortoise (1) to Hare (5)</span><b id="aggressivenessValue"></b></div>
+          <input type="range" id="aggressiveness" min="1" max="5" step="1">
+
+          <div class="slider-label"><span>Plunge rate (% of feed)</span><b id="plungeValue"></b></div>
+          <input type="range" id="plunge" min="10" max="100" step="5">
+
+          <label class="checkbox-row">
+            <input type="checkbox" id="autoLimit" checked> Auto-Limit Feed by Max Safe Deflection
+          </label>
+        </div>
+      </div>
+
+      <!-- Right column: results -->
+      <div>
+        <div class="panel">
+          <h2>Recommended settings</h2>
+          <div class="readouts">
+            <div class="card hero"><div class="label">Feed rate</div><div class="value" id="outFeed"></div></div>
+            <div class="card"><div class="label">Plunge rate</div><div class="value" id="outPlunge"></div></div>
+            <div class="card"><div class="label">Adjusted chip load</div><div class="value" id="outChipLoad"></div></div>
+            <div class="card"><div class="label">MRR</div><div class="value" id="outMrr"></div></div>
+            <div class="card">
+              <div class="label">Spindle load</div>
+              <div class="value" id="outLoad"></div>
+              <div class="bar"><div class="fill" id="loadBar"></div></div>
+            </div>
+            <div class="card">
+              <div class="label">Tool deflection</div>
+              <div class="value" id="outDeflection"></div>
+              <div class="bar"><div class="fill" id="deflectionBar"></div><div class="limit-mark"></div></div>
+            </div>
+          </div>
+          <div class="badges" id="badges"></div>
+        </div>
+
+        <div class="two-col">
+          <div class="panel"><h2>Cross section</h2><svg id="diagram" viewBox="0 0 400 300"></svg></div>
+          <div class="panel"><h2>Calculation detail</h2><table id="detailTable"></table></div>
+        </div>
+
+        <div class="panel advice">
+          <h2>Machinist advice</h2>
+          <ul id="adviceList"></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footnote">Deflection uses a cantilever beam model with a 0.8 x diameter effective core. Power uses a HP per cubic inch per minute factor. Values are estimates.</div>
+  </div>
+
+  <!-- Order matters: each file uses the ones above it -->
+  <script src="js/data.js"></script>
+  <script src="js/format.js"></script>
+  <script src="js/calc.js"></script>
+  <script src="js/advice.js"></script>
+  <script src="js/diagram.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
