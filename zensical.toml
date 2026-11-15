@@ -9,7 +9,7 @@ repo_url = "https://github.com/FabLabIsafjordur/docs"
 
 # repo_url = "https://github.com/user/repo"
 # repo_name = "user/repo"
-# edit_uri = "edit/main/docs/"
+edit_uri = "edit/main/docs/"
 
 # nav = [
 #   { "Get started" = "index.md" },
@@ -26,8 +26,8 @@ repo_url = "https://github.com/FabLabIsafjordur/docs"
 language = "en"
 features = [
   "announce.dismiss",
-  # "content.action.edit",
-  # "content.action.view",
+  "content.action.edit",
+# "content.action.view",
   "content.code.annotate",
   "content.code.copy",
   "content.code.select",
