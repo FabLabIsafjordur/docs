@@ -19,13 +19,13 @@ and technical documentation.
 
 ## Specifications
 
-| Specification | Value |
-|---------------|-------|
-| Manufacturer  | ShopBot Tools |
-| Model         | missing |
-| Machine type  | CNC router |
-| Working area  | missing |
-| Spindle       | missng |
+| Specification    | Value                    |
+| ---------------- | ------------------------ |
+| Manufacturer     | ShopBot Tools            |
+| Model            | PRS-alpha                |
+| Machine type     | CNC router               |
+| Working area     | 1440 x 2190 x 150 mm     |
+| Spindle          | missing info             |
 | Control software | ShopBot Control Software |
 
 ## Capabilities

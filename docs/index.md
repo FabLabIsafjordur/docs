@@ -32,6 +32,6 @@ This is an open documentation project. Contributions, corrections, and improveme
 
 Visit our [GitHub repository](https://github.com/FabLabIsafjordur/docs) to explore the source or suggest changes.
 
-## Fab Lab Ísafjörður
+## Main website
 
 For information about visiting the lab, equipment, courses, and activities, visit [fabisa.is](https://www.fabisa.is).

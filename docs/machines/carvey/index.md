@@ -20,14 +20,15 @@ and technical documentation.
 
 ## Specifications
 
-| Specification | Value |
-|---------------|-------|
-| Manufacturer  | Inventables |
-| Model         | Carvey |
-| Machine type  | Desktop CNC router |
-| Working area  | missing |
-| Spindle       | missing |
-| Control software | Easel or gsender |
+| Specification    | Value                                                |
+| ---------------- | ---------------------------------------------------- |
+| Manufacturer     | Inventables                                          |
+| Model            | Carvey                                               |
+| Machine type     | Desktop CNC router                                   |
+| Working area     | 295 × 203 × 70 mm (11.6 × 8 × 2.75 in)               |
+| Spindle          | 300 W, 12.000 RPM                                    |
+| Collet           | ER-11, 1/8" shank (3/16" and 1/4" collets available) |
+| Control software | Easel or gsender                                     |
 
 ## Capabilities
 
@@ -51,8 +52,6 @@ machine will be added here.
 
 Records of repairs, replacement parts, upgrades,
 and modifications made to the machine.
-
-
 
 ## Resources
 
