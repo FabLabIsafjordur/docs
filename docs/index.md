@@ -10,13 +10,45 @@ This is a place to share technical knowledge, document our work, and preserve wh
 
 ## Documentation
 
-Here you'll find information about:
+<div class="grid cards" markdown>
 
-- **Machines and equipment:** Operation, maintenance, repairs, and modifications.
-- **Electronics:** Circuit boards, programming, and development tools.
-- **Workshop:** Tools, materials, organization, and practical workflows.
-- **Projects:** Things we design, build, and develop at the lab.
-- **Experiments:** Tests, discoveries, and things that didn't quite work as expected.
+-   :lucide-wrench:{ .lg .middle } **[Machines](machines/index.md)**
+
+    ---
+
+    How to use the lab's machines, settings that work, maintenance and repairs.
+
+-   :lucide-cpu:{ .lg .middle } **[Electronics](electronics/index.md)**
+
+    ---
+
+    Circuit boards, microcontrollers, programming and development tools.
+
+-   :lucide-graduation-cap:{ .lg .middle } **[Workshops](workshop/index.md)**
+
+    ---
+
+    Teaching material from workshops, courses and classes.
+
+-   :lucide-folder-kanban:{ .lg .middle } **[Projects](projects/index.md)**
+
+    ---
+
+    Things we design, build and repair at the lab.
+
+-   :lucide-flask-conical:{ .lg .middle } **[Experiments](experiments/index.md)**
+
+    ---
+
+    Tests, discoveries, and things that didn't quite work as expected.
+
+-   :lucide-pencil:{ .lg .middle } **[Contributing](contributing/index.md)**
+
+    ---
+
+    How to add or improve a page. It doesn't have to be perfect.
+
+</div>
 
 ## About this documentation
 
