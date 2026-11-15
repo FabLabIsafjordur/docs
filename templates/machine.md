@@ -15,7 +15,7 @@ description: Documentation for the machine.
 Brief description of the machine, its capabilities,
 and what it is used for.
 
-![Machine](assets/img/machine.jpg)
+![Machine](../img/machine-name/machine.jpg)
 
 ## Specifications
 

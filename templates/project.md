@@ -16,7 +16,7 @@ What is the project?
 Briefly explain the idea, purpose, and intended
 outcome.
 
-![Project](assets/img/project.jpg)
+![Project](../img/project-name/project.jpg)
 
 ## Background
 
