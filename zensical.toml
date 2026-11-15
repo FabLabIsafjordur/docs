@@ -21,7 +21,7 @@ edit_uri = "edit/main/docs/"
 
 [project.theme]
 # variant = "classic"
-# custom_dir = "overrides"
+custom_dir = "overrides"
 # favicon = "images/favicon.png"
 language = "en"
 features = [

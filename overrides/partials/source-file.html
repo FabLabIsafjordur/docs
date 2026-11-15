@@ -1,0 +1,29 @@
+{% set meta = page.meta or {} %} {% set updated =
+meta.git_revision_date_localized %} {% set created =
+meta.git_creation_date_localized %} {% set authors = meta.git_authors or [] %}
+{% if updated or created or authors %}
+<aside class="md-source-file">
+  {% if updated %}
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="{{ lang.t('source.file.date.updated') }}">
+      {% include ".icons/material/clock-edit-outline.svg" %}
+    </span>
+    {{ updated }}
+  </span>
+  {% endif %} {% if created %}
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="{{ lang.t('source.file.date.created') }}">
+      {% include ".icons/material/clock-plus-outline.svg" %}
+    </span>
+    {{ created }}
+  </span>
+  {% endif %} {% if authors %}
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="{{ lang.t('source.file.contributors') }}">
+      {% include ".icons/material/account-group.svg" %}
+    </span>
+    <nav>{{ authors | join(", ") }}</nav>
+  </span>
+  {% endif %}
+</aside>
+{% endif %}
