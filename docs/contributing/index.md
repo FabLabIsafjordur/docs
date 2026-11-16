@@ -1,9 +1,9 @@
 ---
-title: Writing Documentation
+title: Contributing
 icon: lucide/pencil
 ---
 
-# Writing Documentation
+# Contributing
 
 This documentation is an open and collaborative
 knowledge base.

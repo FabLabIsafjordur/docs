@@ -21,14 +21,15 @@ and technical documentation.
 
 ## Specifications
 
-| Specification    | Value                    |
-| ---------------- | ------------------------ |
-| Manufacturer     | ShopBot Tools            |
-| Model            | PRS-alpha                |
-| Machine type     | CNC router               |
-| Working area     | 1440 x 2190 x 150 mm     |
-| Spindle          | missing info             |
-| Control software | ShopBot Control Software |
+| Specification    | Value                                                |
+| ---------------- | ---------------------------------------------------- |
+| Manufacturer     | ShopBot Tools                                        |
+| Model            | PRS-alpha                                            |
+| Machine type     | CNC router                                           |
+| Working area     | 1440 x 2190 x 150 mm                                 |
+| Spindle          | PDS Colombo RS 90.2, 3.7 kW (5 HP), up to 24,000 rpm |
+| Spindle drive    | Yaskawa V1000 VFD                                    |
+| Control software | ShopBot Control Software                             |
 
 ## Capabilities
 
