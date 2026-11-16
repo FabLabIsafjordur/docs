@@ -5,6 +5,8 @@ description: Documentation for the Carvey desktop CNC machine at Fab Lab Ísafj�
 
 # Carvey
 
+![Carvey at Fab Lab Ísafjörður](../img/carvey/carvey.jpg)
+
 ## Overview
 
 The Carvey is an enclosed desktop CNC milling machine

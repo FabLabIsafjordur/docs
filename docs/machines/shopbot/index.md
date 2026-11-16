@@ -5,6 +5,8 @@ description: Documentation for the ShopBot CNC router at Fab Lab Ísafjörður.
 
 # ShopBot
 
+![ShopBot at Fab Lab Ísafjörður](../img/shopbot/shopbot.jpg)
+
 ## Overview
 
 The ShopBot is a CNC milling machine used for cutting, milling, and engraving materials
