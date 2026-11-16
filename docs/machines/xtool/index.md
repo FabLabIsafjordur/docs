@@ -35,9 +35,12 @@ It doesn't cut metal.
 - Engraving inside clear glass and crystal
 - Cutting thin materials
 
-## Documentation
+## Guides
 
-Operating instructions and guides will be added here.
+- [UV laser PCB settings](../../electronics/pcb-production/uv-laser-pcb.md):
+  making circuit boards, with a settings file
+- [Tiny PCB on the UV laser](../../electronics/pcb-production/uv-laser-tiny-pcb.md):
+  an ATtiny3226 board scaled down to 6.5 mm
 
 ## Resources
 
