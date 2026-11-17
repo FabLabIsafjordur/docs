@@ -36,3 +36,4 @@ Settings for common materials and instructions will be added here.
 ## Resources
 
 - [The Prima Group](https://www.theprimagroup.co.uk/)
+- [Roland CAMM-1 GX-24](../roland-camm/index.md) for cutting heat transfer vinyl

@@ -81,9 +81,11 @@ guides.
 
     Clam heat press for vinyl and sublimation transfers.
 
--   **Roland CAMM vinyl cutter**
+-   ![Roland CAMM-1 GX-24](img/roland-camm/roland-camm.jpg)
 
-    Page and photo coming soon.
+    **[Roland CAMM-1 GX-24](roland-camm/index.md)**
+
+    Vinyl cutter for stickers, heat transfer vinyl and copper film.
 
 </div>
 
