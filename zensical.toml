@@ -120,3 +120,4 @@ pymdownx.tilde = {}
 
 [project.plugins.mkdocs-nav-weight]
 section_renamed = true
+[project.plugins.awesome-nav]
